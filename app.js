@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
 const redis = require('redis');
 
-const PORT = 3000;
+const PORT = 4000;
 
 const app = express();
 app.engine('handlebars', exphbs({defaultLayout:'main'}));
